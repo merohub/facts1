@@ -10,8 +10,8 @@
 
     //echo $lastName;
 
-mysql_connect("localhost","root","") or die(mysql_error());
-mysql_select_db("facts") or die(mysql_error());
+mysql_connect("localhost","kumar109_rfact","!merofact2015") or die(mysql_error());
+mysql_select_db("kumar109_facts") or die(mysql_error());
 //mysql_connect("mysql11.000webhost.com","a4377512_hitlar","!webhost123") or die(mysql_error());
 //mysql_select_db("a4377512_login") or die(mysql_error());
 $sql = mysql_query("SELECT * FROM datas ORDER BY RAND() LIMIT 5");
