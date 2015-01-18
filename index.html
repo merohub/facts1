@@ -38,10 +38,10 @@ background: url('images/bokeh.jpg');
   //alert (dataString);return false;
   $.ajax({
     type: "POST",
-    url: "getFacts.php",
+    url: "http://hitlarrajbhandari.info/facts/getFacts.php",
     data: dataString,
      beforeSend: function() {
-                                $('#loader').html('<center><img src="http://hitlarrajbhandari.info/CapitalCities/ajax-loader.gif" style="width:64px; height:64px;" /></center>').hide().fadeIn('fast');
+                                $('#loader').html('<center><img src="http://hitlarrajbhandari.info/facts/ajax-loader.gif" style="width:64px; height:64px;" /></center>').hide().fadeIn('fast');
                             $('#someElement').hide();
                             },
     success: function(data) {
